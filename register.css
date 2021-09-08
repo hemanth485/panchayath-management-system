@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+
+
+body{
+    height:100%;
+    background-image:url("login.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+    
+    
+}
+
+.container{
+    position:relative;
+    top:10vh;
+}
+
+.block{
+    background-color: rgba(30,30,30,0.8);
+    margin:auto;
+    width:60%;
+    height:750px;
+    border-radius:20px;
+   }
+
+
+   .item{
+text-align:center;
+color:aqua;
+
+}
+
+input{
+    border-radius:20px;
+    outline:none;
+    background:rgba(30,30,30,0.1);
+    color:white;
+    border:1px solid yellow;
+    padding:5px;
+    margin:auto;
+    text-align:center;
+}
+
+
+
+
+label{
+     margin-top:0px;
+}
+
+h2{
+    text-decoration:underline;
+}
+
+@media only  screen and (max-width:600px){
+
+.block{width:90%;}
+
+}

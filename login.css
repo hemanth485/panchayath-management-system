@@ -1,0 +1,59 @@
+
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    height:100%;
+    background-image:url("login.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+    
+    
+}
+
+.container{
+    background:rgba(30,30,30,0.9);
+    border-radius:10px;
+    position:relative;
+    top:15vh;
+    text-align:center;
+    height:500px;
+}
+
+.item{
+    position:relative;
+    top:10vh;
+    color:aqua;
+}
+
+input{
+    border-radius:20px;
+    text-align:center;
+border:1px solid white;
+background:rgba(30,30,30,0.1);
+outline:none;
+color:yellow;
+padding:4px;
+}
+
+
+textarea{
+    border-radius:20px;
+    text-align:center;
+border:1px solid white;
+background:rgba(30,30,30,0.1);
+outline:none;
+color:yellow;
+padding:4px;
+}
+
+@media only  screen and (max-width:600px){
+
+    .container{width:90%;}
+
+}
+
